@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background subtle shadow -->
+    <path
+        android:fillColor="#1A000000"
+        android:pathData="M 30,24 L 64,24 L 84,44 L 84,90 L 30,90 Z" />
+
+    <!-- Main White Document Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 28,20 L 62,20 L 82,40 L 82,86 L 28,86 Z" />
+
+    <!-- Folded Corner Page Highlight -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M 62,20 L 62,40 L 82,40 Z" />
+
+    <!-- Primary Accent Line / Title Indicator -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M 36,32 L 56,32 A 2,2 0 0 1 56,36 L 36,36 A 2,2 0 0 1 36,32 Z" />
+
+    <!-- Styling Lines of text on the paper -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M 36,46 L 74,46 A 1.5,1.5 0 0 1 74,49 L 36,49 A 1.5,1.5 0 0 1 36,46 Z" />
+    <path
+        android:fillColor="#757575"
+        android:pathData="M 36,56 L 74,56 A 1.5,1.5 0 0 1 74,59 L 36,59 A 1.5,1.5 0 0 1 36,56 Z" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M 36,66 L 64,66 A 1.5,1.5 0 0 1 64,69 L 36,69 A 1.5,1.5 0 0 1 36,66 Z" />
+
+    <!-- Stylized Feather/Quill Pen pointing to the document (Representing ScribeFlow) -->
+    <!-- Gradient Orange-to-Pink quill overlay -->
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M 76,55 Q 84,51 86,43 Q 88,35 84,33 Q 82,31 74,35 Q 66,39 63,48 Q 61,54 65,58 L 76,55 M 65,58 L 56,76 L 61,78 L 70,60 L 65,58" />
+</vector>

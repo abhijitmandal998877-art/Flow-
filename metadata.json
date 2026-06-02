@@ -1,0 +1,6 @@
+{
+  "name": "ScribeFlow",
+  "description": "A powerful, feature-rich word processor, letter, and biodata maker with rich formatting, template library, real-time collaboration simulator, offline editing, and PDF/JPG exporting capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
